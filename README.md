@@ -1,9 +1,8 @@
-# Organización de Lenguajes y Compiladores  2 GRUPO 24 🕸️
+# Organización de Lenguajes y Compiladores 2 GRUPO 24
 
-Proyectos y practicas del curso de Organización de Lenguajes y Compiladores 2, 2do semestre 2024
+Proyectos y practicas del curso de Organización de Lenguajes y Compiladores 2, Vacaciones Diciembre 2024
 
 ## Integrantes 👨‍💻
-
 
 | Intregrante | Carnet  |
 |-------------|---------|
