@@ -61,3 +61,28 @@ input_range = [^[\]-] "-" [^[\]-]
 
 identifier "identificador"
   = [_a-z]i[_a-z0-9]i*
+
+_ "espacios en blanco"
+  = [ \t]*
+
+nl "nueva linea"
+  = [ \t\n\r]*
+
+number
+  = [0-9]+
+
+point
+  = "."
+
+point_adm
+  = "!" "."
+
+assertion
+  = positive_assertion
+  / negative_assertion
+
+positive_assertion
+  = "&" _ expression
+
+negative_assertion
+  = "!" _ expression 
