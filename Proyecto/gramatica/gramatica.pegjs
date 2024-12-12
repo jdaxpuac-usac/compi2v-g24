@@ -13,7 +13,7 @@ linecomment
   = [/][/] [^\n]*
 
 multicomment
-  = "/*" (!"/" .)* "*/"
+  = "/*" (!"*/" .)* "*/"
   
 choice
   = concatenation (nl "/" nl concatenation)*
