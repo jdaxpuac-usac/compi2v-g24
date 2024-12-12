@@ -5,7 +5,6 @@ rule
   = nl identifier nl string? nl "=" _ choice nl (";")?
   / nl Comment
 
-
 Comment
   = linecomment (nl linecomment)* 
   / multicomment (nl multicomment)* 
@@ -14,7 +13,7 @@ linecomment
   = [/][/] [^\n]*
 
 multicomment
-  = "/" (!"/" .)* "*/"
+  = "/*" (!"/" .)* "*/"
   
 choice
   = concatenation (nl "/" nl concatenation)*
